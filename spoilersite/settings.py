@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'spoilersite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'grounded-pager-345917:us-central1:seenoevil',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres2022',
-        'HOST': '34.132.228.71',
+        'NAME': 'seeNoEvil',
+        'USER': 'crypt',
+        'PASSWORD': 'Spoilers123!',
+        'HOST': 'see-no-evil-postgres.postgres.database.azure.com',
         'PORT': '5432',
     }
 }
