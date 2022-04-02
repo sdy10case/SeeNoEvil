@@ -3,6 +3,8 @@ import json
 from .models import Content, Request
 from django.http import JsonResponse , HttpResponse ####
 # Create your views here.
+def index(request):
+    return HttpResponse("Hello, world. You're at the polls index.")
 def get_content_list(request, url):
     content_list = []
     content_dict = {}
